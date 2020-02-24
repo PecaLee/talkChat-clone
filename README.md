@@ -2,7 +2,7 @@
  kakao Clone
 
 ## planing this page.
-* clone cakao talk.
+* clone kakao talk.
 * redesign front end.
 
 ## update note.
