@@ -85,3 +85,11 @@ img{
     margin-left: 15px;
     color: #909090;
 }
+
+a{
+    text-decoration: none;
+}
+
+a h2{
+    color: #282A25;
+}
