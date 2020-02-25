@@ -7,3 +7,4 @@
 
 ## update note.
 * 2020.02.24 - create repository
+* 2020.02.25 - create html, css
