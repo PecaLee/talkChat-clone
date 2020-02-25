@@ -9,6 +9,8 @@
 </head>
 <body>
     
+<div class="wrapper__top">
+
     <div class="indicator">
         <ul class="indicator__contents">
             <li class="contents__list">
@@ -31,17 +33,23 @@
                 <h1>채팅</h1>
             </li>
             <li class="contents__list">
-                <i class="fas fa-search"></i>
-                <i class="far fa-comment"></i>
-                <i class="fas fa-music"></i>
-                <i class="fas fa-cog"></i>
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-comment"></i></span>
+                <span><i class="fas fa-music"></i></span>
+                <span><i class="fas fa-cog"></i></span>
             </li>
         </ul>
     </nav>
 
+</div>
+
+<div class="g-wrapper">
+
     <div class="profile">
         <div class="profile__contents">
-            <div class="contents__userPic"></div>
+            <div class="avatar">
+                <img src="images/avatar/02_brother.jpg">
+            </div>
             <ul class="contents__list">
                 <li class="contents__profileDat">
                     <h2>동생</h2>
@@ -53,10 +61,22 @@
             </ul>
         </div>
         <div class="profile__contents">
-            <div class="contents__userPic"></div>
-            <div class="contents__userPic"></div>
-            <div class="contents__userPic"></div>
-            <div class="contents__userPic"></div>
+            <ul class="profile__group">
+                <li>
+                <div class="avatar">
+                    <img src="images/avatar/01_me.jpg">
+                </div>
+                <div class="avatar">
+                    <img src="images/avatar/02_brother.jpg">
+                </div>
+                <div class="avatar underAvatar">
+                    <img src="images/avatar/03_chou.jpg">
+                </div>
+                <div class="avatar underAvatar">
+                    <img src="images/avatar/04_longpush.jpg">
+                </div>
+                </li>
+            </ul>
             <ul class="contents__list">
                 <li class="contents__profileDat">
                     <ul class="profileDat__title">
@@ -71,7 +91,9 @@
             </ul>
         </div>
         <div class="profile__contents">
-            <div class="contents__userPic"></div>
+            <div class="avatar">
+                <img src="images/avatar/05_sister.jpg">
+            </div>
             <ul class="contents__list">
                 <li class="contents__profileDat">
                     <h2>RC스승</h2>
@@ -83,6 +105,8 @@
             </ul>
         </div>
     </div>
+
+</div>
 
     <nav class="menu">
         <ul class="menu__contents">

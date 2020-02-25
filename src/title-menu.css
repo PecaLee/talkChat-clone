@@ -1,0 +1,23 @@
+.titleMenu{
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+.titleMenu__contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleMenu__contents .contents__list{
+    display: flex;
+}
+
+.titleMenu__contents .contents__list span{
+    margin-left: 25px;
+}
+
+.titleMenu__contents .contents__list span a{
+    color: #282A25;
+}

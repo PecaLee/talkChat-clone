@@ -1,0 +1,22 @@
+.menu{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #F9F9F9;
+    border-top: #dddddd solid 1px;
+}
+
+.menu__contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+    font-size: 20px;
+}
+
+.menu__contents li a{
+    color: #30363B;
+}

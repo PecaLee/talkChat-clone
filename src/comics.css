@@ -1,0 +1,96 @@
+.insideMenu__comics{
+    margin-top: 40px;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 0 50px;
+    padding-bottom: 20px;
+    border-bottom: #dddddd solid 1px;
+}
+
+.insideMenu__contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.insideMenu__contents li{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: #D5D5D5;
+}
+
+.insideMenu__contents li:first-child{
+    color: #282A25;
+}
+
+.comics__comicBooks{
+    margin-top: 158px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.comicBooks__box{
+    padding: 15px 20px;
+    background-color: white;
+    border: #dddddd solid 1px;
+}
+
+.comicbooks__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: #dddddd solid 1px;
+}
+
+.comicbooks__title li:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.comicbooks__title li:last-child{
+    color: #D5D5D5;
+    font-size: 13px;
+}
+
+.fa-chevron-down{
+    color: #D5D5D5;
+    border: #D5D5D5 solid 1px;
+    padding: 3px;
+}
+
+.comicbooks__contents{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.comicbooks__contents li{
+    display: flex;
+    flex-direction: column;
+    width: 123px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.comicbooks__contents .contents__list div{
+    width: 123px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.comicbooks__contents li span{
+    display: block;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.comicbooks__contents .contents__list img{
+    height: 175px;
+    width: auto;
+    border-radius: 0;
+}

@@ -1,0 +1,78 @@
+.m-data{
+    font-size: 30px;
+}
+
+.insideMenu__more .more__contents{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.insideMenu__more .more__contents li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 80px;
+}
+
+.insideMenu__more .more__contents li span{
+    font-size: 13px;
+    margin-top: 13px;
+}
+
+.recommendService{
+    margin-top: 50px;
+}
+
+.recommendService h3{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.recommendService .recommendService__contents{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.recommendService__contents .contents__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+
+.recommendService__contents .contents__list div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommendService__contents .contents__list div:first-child{
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    background-color: #FFDE05;
+    color: white;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+.recommendService__contents .contents__list span{
+    display: block;
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+/*
+.recommendService .recommendService__contents div span{
+    display: block;
+    font-size: 14px;
+    color: #909090;
+    margin-top: 14px;
+    width: 100%;
+}
+*/

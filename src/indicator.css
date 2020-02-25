@@ -1,0 +1,11 @@
+.indicator{
+    color: #616161;
+}
+
+.indicator__contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 28px;
+    padding-top: 10px;
+    font-size: 12px;
+}
