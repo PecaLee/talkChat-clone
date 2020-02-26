@@ -1,3 +1,7 @@
+.wrapper__top-chatroom{
+    background-color: #B2C7DA;
+}
+
 .settingMenu-chatroom{
     margin: 20px 0;
 }
@@ -112,24 +116,29 @@
     align-items: center;
 }
 
-.typeWindow .typeWindow__contents{
+.typeWindow__contents{
     width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.typeWindow__contents .contents__list{
+.typeWindow__contents li:nth-child(2){
+    width: 60%;
+}
+
+.typeWindow__contents .contents__list div input{
     width: 100%;
 }
 
-.typeWindow__contents .contents__list:first-child{
-    margin-right: 13px;
+.typeWindow ul li:nth-child(3) *{
+    margin-left: 20px;
 }
 
-.typeWindow .typeWindow__contents .contents__list:last-child *{
-    margin-left: 25px;
+.typeWindow ul li:nth-child(1) *{
+    margin-right: 15px;
 }
 
-input{
-    width: 100%;
+.chat__typeInput{
+    border-style: none;
+    outline: none;
 }
