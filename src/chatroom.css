@@ -1,0 +1,135 @@
+.settingMenu-chatroom{
+    margin: 20px 0;
+}
+
+.settingMenu-chatroom ul li div{
+    margin-left: 25px;
+}
+
+.chat-wrapper{
+    margin-top: 84px;
+    background-color: #B2C7DA;
+}
+
+.chatBubbleLeft img{
+    width: 40px;
+    height: auto;
+}
+
+.chatBubbleLeft{
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.chatBubbleLeft .chatBubbleLeft__bubble{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.chatBubbleLeft .chatBubbleLeft__bubble li:first-child{
+    font-size: 13px;
+}
+
+.chatBubbleLeft .chatBubbleLeft__bubble li:last-child{
+    margin-top: 8px;
+    font-size: 14px;
+    background-color: white;
+    padding: 12px 15px ;
+    border-radius: 3px 15px 15px 15px;
+    max-width: 240px;
+    line-height: 20px;
+}
+
+.chatBubbleLeft .chatBubbleLeft__time{
+    font-size: 7px;
+    color: #909090;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.chatBubbleRight{
+    margin-top: 10px;
+}
+
+.chatBubbleRight + .chatBubbleRight-time{
+    margin-top: 5px;
+}
+
+.chatBubbleRight .chatBubbleRight__bubble{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.chatBubbleRight .chatBubbleRight__bubble .bubble__list:last-child{
+    font-size: 14px;
+    background-color: #FFEA35;
+    padding: 12px 15px ;
+    border-radius: 15px 15px 3px 15px;
+    max-width: 240px;
+    line-height: 20px;
+}
+
+.chatBubbleRight__bubble .bubble-time{
+    font-size: 7px;
+    color: #909090;
+    margin-right: 5px;
+}
+
+.dataBubbleWarp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dataBubble{
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 18px 0;
+    opacity: 0.3;
+}
+
+.dataBubbleWarp + .chatBubbleLeft{
+    margin-top: 0;
+}
+
+.typeWindow{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: white;
+    padding: 0 13px;
+    font-size: 22px;
+    color: #909090;
+    display: flex;
+    align-items: center;
+}
+
+.typeWindow .typeWindow__contents{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.typeWindow__contents .contents__list{
+    width: 100%;
+}
+
+.typeWindow__contents .contents__list:first-child{
+    margin-right: 13px;
+}
+
+.typeWindow .typeWindow__contents .contents__list:last-child *{
+    margin-left: 25px;
+}
+
+input{
+    width: 100%;
+}

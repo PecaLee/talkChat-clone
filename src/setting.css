@@ -3,6 +3,8 @@
     font-size: 20px;
     font-weight: 800;
     width: 100%;
+    padding: 0 20px;
+    margin: 20px 0;
 }
 
 .settingMenu__contents{
@@ -26,6 +28,7 @@
 
 .setting{
     font-size: 19px;
+    margin-top: 84px;
 }
 
 .setting .setting__contents{
@@ -37,6 +40,10 @@
 .setting .setting__contents .contents__list{
     margin-top: 45px;
     display: flex;
+}
+
+.setting .setting__contents .contents__list:first-child{
+    margin-top: 25px;
 }
 
 .setting .setting__contents .contents__list div{

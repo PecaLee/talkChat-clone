@@ -66,3 +66,7 @@
     font-size: 14px;
     margin-top: 13px;
 }
+
+.recommendService .recommendService__contents li div a{
+    color: white;
+}
