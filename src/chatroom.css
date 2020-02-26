@@ -1,7 +1,3 @@
-.wrapper__top-chatroom{
-    background-color: #B2C7DA;
-}
-
 .settingMenu-chatroom{
     margin: 20px 0;
 }
@@ -12,7 +8,6 @@
 
 .chat-wrapper{
     margin-top: 84px;
-    background-color: #B2C7DA;
 }
 
 .chatBubbleLeft img{
@@ -114,6 +109,7 @@
     color: #909090;
     display: flex;
     align-items: center;
+    border-top: #dddddd solid 1px;
 }
 
 .typeWindow__contents{
@@ -141,4 +137,9 @@
 .chat__typeInput{
     border-style: none;
     outline: none;
+}
+
+.chatBubbleLeft .chatBubbleLeft__bubble li:last-child,
+.chatBubbleRight .chatBubbleRight__bubble .bubble__list:last-child{
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
