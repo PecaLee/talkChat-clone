@@ -19,4 +19,34 @@
 
 .menu__contents li a{
     color: #30363B;
+    position: relative;
+}
+
+.menu__contents li .nav__badge{
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    color: white;
+    background-color: #dc5d46;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    animation: nav_badge .5s infinite ease-in-out;
+}
+
+@keyframes nav_badge{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-4px)
+    }
+    100%{
+        transition: none;
+    }
 }

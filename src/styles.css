@@ -9,6 +9,7 @@
 @import "more.css";
 @import "setting.css";
 @import "chatroom.css";
+@import "logoscreen.css";
 
 
 * {
@@ -34,11 +35,12 @@
       width: 100%;
       background-color: white;
       z-index: 2;
+      box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
   }
 
   .g-wrapper{
       width: 100%;
       padding: 0 20px;
-      padding-top: 10px;
+      padding-top: 30px;
       padding-bottom: 60px;
   }

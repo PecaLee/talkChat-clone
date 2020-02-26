@@ -8,6 +8,7 @@
 
 .chat-wrapper{
     margin-top: 84px;
+    /* 채팅 배경화면 추가 가능 */
 }
 
 .chatBubbleLeft img{
@@ -110,6 +111,7 @@
     display: flex;
     align-items: center;
     border-top: #dddddd solid 1px;
+    transition: background-color .5s ease-in-out, box-shadow .5s ease-in-out;
 }
 
 .typeWindow__contents{
@@ -124,6 +126,7 @@
 
 .typeWindow__contents .contents__list div input{
     width: 100%;
+    transition: background-color .5s ease-in-out;
 }
 
 .typeWindow ul li:nth-child(3) *{
@@ -142,4 +145,57 @@
 .chatBubbleLeft .chatBubbleLeft__bubble li:last-child,
 .chatBubbleRight .chatBubbleRight__bubble .bubble__list:last-child{
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+
+.typeWindow:hover, .typeWindow:hover  input{
+    background-color: #e4e4e4;
+}
+
+.typeWindow:hover{
+    box-shadow: -1px 21px 55px 6px rgba(0,0,0,0.76);
+}
+
+
+@keyframes incomingAnim{
+    from{
+        opacity: 0;
+        transform:  translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.chatBubbleLeft{
+    animation: incomingAnim .5s ease-out forwards;
+}
+
+@keyframes sentAnim{
+    from{
+            opacity: 0;
+            transform:  translateX(200px);
+        }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.chatBubbleRight{
+    animation: sentAnim .5s ease-out forwards;
+}
+
+@keyframes dataBubbleOp{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.dataBubbleWarp{
+    animation: dataBubbleOp .5s ease-out forwards;
 }
