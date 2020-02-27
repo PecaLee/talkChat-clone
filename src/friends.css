@@ -40,6 +40,6 @@
 .f-avatar img{
     width: 45px;
     height: auto;
-    border-radius: 28%;
+    border-radius: 80% 50% 80% 50% / 50% 80% 50% 80% ;
     overflow: hidden;
 }
