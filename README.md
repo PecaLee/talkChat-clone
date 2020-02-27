@@ -1,5 +1,5 @@
 # talkChat-clone
- kakao Clone
+ [kakao Clone](https://pecalee.github.io/talkChat-clone/ "kakao clone by pecalee")
 
 ## planing this page.
 * clone kakao talk.
@@ -10,3 +10,4 @@
 * 2020.02.25 - create html, css
 * 2020.02.26 - create chatscreen.html
 * 2020.02.26 - publish
+* 2020.02.27 - change shadow and border radius 
