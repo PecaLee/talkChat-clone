@@ -1,5 +1,5 @@
 # talkChat-clone
- [kakao Clone](https://pecalee.github.io/talkChat-clone/, "kakao clone by pecalee")
+ [kakao Clone](https://pecalee.github.io/talkChat-clone/ "kakao clone by pecalee")
 
 ## planing this page.
 * clone kakao talk.
