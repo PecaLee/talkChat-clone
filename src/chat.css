@@ -1,7 +1,7 @@
 img{
     width: 60px;
     height: auto;
-    border-radius: 28%;
+    border-radius: 80% 50% 80% 50% / 50% 80% 50% 80% ;
     overflow: hidden;
 }
 
