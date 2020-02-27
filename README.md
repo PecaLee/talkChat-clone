@@ -10,3 +10,4 @@
 * 2020.02.25 - create html, css
 * 2020.02.26 - create chatscreen.html
 * 2020.02.26 - publish
+* 2020.02.26 - change shadow and border radius 
